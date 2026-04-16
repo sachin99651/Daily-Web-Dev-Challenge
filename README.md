@@ -1,25 +1,26 @@
 # 🚀 Daily Web Development Challenges (2026)
 
 ## 📌 Overview
-This repository is a dedicated space for my daily coding journey. After completing my BCA in 2025 and finishing the wheat harvest season, I am now spending **8 hours a day** building a solid foundation in the **MERN Stack** before my MCA starts in September 2026.
+This repository serves as a professional log of my daily technical growth. Having completed my BCA in 2025, I am currently dedicated to an **8-hour daily study routine** to master the **MERN Stack** and **Data Structures** before beginning my MCA in September 2026.
 
-## 📈 Learning Goals
-- [ ] Complete freeCodeCamp Responsive Web Design (Current: 30%)
-- [ ] Master JavaScript ES6+ and DSA Fundamentals
-- [ ] Build 2 Full-Stack MERN Projects (To-Do App & Hockey Site)
-- [ ] Maintain a consistent GitHub contribution streak
+## 📈 Roadmap & Milestones
+- [ ] **Phase 1:** Advanced JavaScript Logic & ES6+ (Current)
+- [ ] **Phase 2:** Backend Architecture (Node.js, Express, MongoDB)
+- [ ] **Phase 3:** Frontend Engineering (React.js & State Management)
+- [ ] **Phase 4:** Full-Stack Integration & Deployment
 
-## 📂 Repository Structure
-| Folder | Topic | Status |
+## 📂 Daily Log
+| Folder | Focus Area | Status |
 | :--- | :--- | :--- |
-| `JS1` | JavaScript Fundamentals (Variables & Strings) | ✅ Completed |
-| `CSS-Selectors` | Pseudo-classes & Advanced Layouts | ⏳ In Progress |
+| `JS1` | JS Fundamentals: Variables & Strings | ✅ Completed |
+| `JS2` | Template Literals, Data Types & typeof Bug | ✅ Completed |
+| `JS3` | *Upcoming: Control Flow & Logic* | ⏳ Next |
 
-## 🛠️ Tech Stack
-- **Frontend:** HTML5, CSS3, React.js
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
-- **Tools:** Git, VS Code, Figma
+## 🛠️ Technical Toolkit
+* **Language:** JavaScript (ES6+)
+* **Runtime/Frameworks:** Node.js, Express, React.js
+* **Database:** MongoDB
+* **Version Control:** Git & GitHub
 
 ---
-*"Consistency is the key to transformation."*
+*"Code every day to build a career, not just a project."*
