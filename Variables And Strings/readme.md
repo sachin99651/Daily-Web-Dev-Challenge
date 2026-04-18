@@ -1,16 +1,36 @@
-# Day 1: JavaScript Fundamentals - Personal Bot Greeting
+# 📦 Module 01: Variables and Strings
 
-## 📝 Description
-This is the first lab from the **freeCodeCamp JavaScript Algorithms and Data Structures Certification**. The goal of this project was to practice basic variable declaration, reassignment, and string concatenation using `console.log`.
+## 📝 Overview
+This module covers the core building blocks of JavaScript logic. I've transitioned from basic variable declarations to advanced string manipulation, including template literals and built-in prototypes.
 
-## 🛠️ Concepts Learned
-* **Variables:** Using `let` for values that change (like the bot's name) and `const` for values that stay the same (like a favorite subject).
-* **String Concatenation:** Combining text strings with variables using the `+` operator.
-* **Console Output:** Using `console.log()` to debug and display information in the terminal.
+## 📂 Project Breakdown
 
-## 🚀 How to Run
-1. Ensure you have [Node.js](https://nodejs.org/) installed.
-2. Clone this repository.
-3. Run the script using the command:
-   ```bash
-   node script.js
+### 1. `FunFact.js` (JavaScript History)
+* **Goal:** Practice string concatenation and variable reassignment.
+* **Key Learning:** Learned about the origins of JavaScript (Mocha/LiveScript) and the difference between `let` and `const`.
+
+### 2. `sentenceMaker.js` (Template Literals)
+* **Goal:** Use ES6 backticks (`` ` ``) for string interpolation.
+* **Key Learning:** Successfully implemented dynamic storytelling by embedding variables directly into strings using `${variable}` syntax.
+
+### 3. `stringFormatter.js` (Cleanup & Case)
+* **Goal:** Master whitespace management and case transformation.
+* **Key Learning:** Practiced `.trim()`, `.toUpperCase()`, `.toLowerCase()`, and used `.slice()` to manually format strings into `camelCase`.
+
+### 4. `stringTransformer.js` (Search & Replace)
+* **Goal:** Modify existing string data.
+* **Key Learning:** Used `.replace()` and `.replaceAll()` to swap keywords. Implemented `.repeat()` and `.trimEnd()` to generate repetitive logic dynamically.
+
+### 5. `strings.js` & `stringsAndVar.js` (Properties & Methods)
+* **Goal:** Access metadata and internal characters.
+* **Key Learning:** * Accessing **Length**: Using `.length` to determine string size.
+    * **Bracket Notation**: Accessing indices like `subject[0]` and calculating the last character with `subject[subject.length - 1]`.
+    * **Searching**: Using `.indexOf()` to find substrings and understanding return values for missing items (-1).
+
+## 🛠️ Concepts Mastered
+- **Dynamic Typing:** How JavaScript determines types at runtime.
+- **Escape Characters:** Using `\n` for new lines and `\"` for quotes.
+- **The `typeof null` Bug:** Understanding historical quirks in the JS engine.
+
+---
+*Next Step: 02OperatorsAndLogic*
