@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Req 8: Selector for the checkboxes */
+.feature-card input[type="checkbox"] {
+    /* Req 9: Appearance set to none */
+    appearance: none;
+    
+    /* Box Dimensions */
+    height: 20px;
+    width: 20px;
+    
+    /* Req 10, 11, & 12: Border width, color, and style */
+    border-width: 2px;
+    border-color: blue;
+    border-style: solid;
+    
+    border-radius: 4px;
+    margin-right: 10px;
+    
+    /* Centering tools for Requirement 13 */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+/* Req 14 & 15: Background and Border color change when checked */
+.feature-card input[type="checkbox"]:checked {
+    background-color: blue;
+    border-color: #2ecc71; /* Requirement 15 */
+}
+
+/* Req 13: Checkmark ✓ in the center */
+.feature-card input[type="checkbox"]:checked::after {
+    content: "✓";
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Layout for the container */
+.feature-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.feature-card {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
