@@ -12,7 +12,7 @@ To maintain high-quality code and a consistent contribution streak, I follow a s
 
 ## 📈 Roadmap & Milestones
 - [x] **Phase 1:** JavaScript Fundamentals (Variables, Strings, Booleans)
-- [ ] **Phase 2:** Advanced Logic (Functions, Arrays, Objects)
+- [x] **Phase 2:** Advanced Logic (Functions, Arrays, Objects, Loops)
 - [ ] **Phase 3:** Backend Architecture (Node.js, Express, MongoDB)
 - [ ] **Phase 4:** Frontend Engineering (React.js & State Management)
 
@@ -21,7 +21,10 @@ To maintain high-quality code and a consistent contribution streak, I follow a s
 | :--- | :--- | :--- |
 | `01VariablesAndStrings` | JS Fundamentals: Variables & String Prototypes | ✅ Completed |
 | `02BooleanAndNumbers` | Arithmetic, Comparisons & Boolean Logic | ✅ Completed |
-| `03ControlFlow` | *Upcoming: If/Else, Switch & Loops* | ⏳ Next |
+| `03Functions` | Reusable Logic, Parameters & Scope | ✅ Completed |
+| `04Arrays` | Data Collections, Methods & Iteration | ✅ Completed |
+| `05Objects` | Key-Value Pairs, Methods & `this` Keyword | ✅ Completed |
+| `06Loops` | **Current: For, While & Do-While Loops** | 🚧 In Progress |
 
 ## 🛠️ Technical Toolkit
 * **Language:** JavaScript (ES6+)
