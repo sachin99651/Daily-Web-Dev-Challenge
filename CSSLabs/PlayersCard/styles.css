@@ -1,0 +1,53 @@
+body {
+    background-color: #1a1a1a; /* Dark background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#playing-cards {
+    display: flex;
+    justify-content: center; /* Horizontally centers children */
+    flex-wrap: wrap;        /* Allows cards to wrap */
+    gap: 20px;              /* 20px space between cards */
+    padding: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    width: 150px;
+    height: 220px;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; /* Requirement 6 */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    color: #333;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.card.red {
+    color: #e74c3c;
+}
+
+/* Individual alignment per requirements */
+.left {
+    align-self: flex-start; /* Requirement 7 */
+}
+
+.middle {
+    display: flex;
+    flex-direction: column; /* Requirement 10 */
+    align-self: center;     /* Requirement 8 */
+    font-size: 2.5rem;
+}
+
+.right {
+    align-self: flex-end;   /* Requirement 9 */
+    transform: rotate(180deg); /* Flips the bottom-right rank */
+}
