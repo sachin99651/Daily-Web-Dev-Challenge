@@ -1,0 +1,210 @@
+*, *::before, *::after { 
+  box-sizing: border-box; 
+  margin: 0; 
+  padding: 0; 
+}
+
+:root {
+  --ink:      #1a1208;
+  --paper:    #f5f0e8;
+  --cream:    #ede6d6;
+  --gold:     #c8972a;
+  --rust:     #b34a2f;
+  --sage:     #4a6741;
+  --navy:     #1e2d4a;
+  --muted:    #7a6f5e;
+  --shadow:   rgba(26,18,8,.18);
+}
+
+body {
+  font-family: 'DM Mono', monospace;
+  background-color: var(--paper);
+  background-image:
+    radial-gradient(circle at 15% 20%, rgba(200,151,42,.08) 0%, transparent 55%),
+    radial-gradient(circle at 85% 75%, rgba(74,103,65,.08) 0%, transparent 55%);
+  min-height: 100vh;
+  padding: 3rem 2rem;
+  color: var(--ink);
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2.4rem, 6vw, 4rem);
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-bottom: 0.3rem;
+  color: var(--ink);
+  position: relative;
+}
+
+h1::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--gold), var(--rust));
+  margin: 0.6rem auto 0;
+  border-radius: 2px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: .75rem;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 3rem;
+}
+
+.table-wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 40px var(--shadow), 0 2px 8px var(--shadow);
+  border: 1px solid rgba(200,151,42,.25);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--cream);
+}
+
+thead tr {
+  background: var(--ink);
+}
+
+th {
+  font-family: 'DM Mono', monospace;
+  font-size: .68rem;
+  font-weight: 500;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--gold);
+  padding: 1.1rem 1.4rem;
+  text-align: left;
+  border-bottom: 2px solid var(--gold);
+}
+
+td {
+  padding: 1rem 1.4rem;
+  font-size: .82rem;
+  border-bottom: 1px solid rgba(200,151,42,.15);
+  vertical-align: middle;
+}
+
+td:first-child { 
+  font-weight: 500; 
+  font-size: .88rem; 
+}
+
+tr[class="read"] {
+  background-image: linear-gradient(135deg, rgba(74,103,65,.12) 0%, rgba(74,103,65,.04) 100%);
+}
+
+tr[class="to-read"] {
+  background-image: linear-gradient(135deg, rgba(30,45,74,.10) 0%, rgba(30,45,74,.03) 100%);
+}
+
+tr[class="in-progress"] {
+  background-image: linear-gradient(135deg, rgba(200,151,42,.14) 0%, rgba(200,151,42,.04) 100%);
+}
+
+span {
+  display: inline-block;
+}
+
+span[class="status"],
+span[class^="rate"] {
+  height: 28px;
+  width: auto;
+  padding: 0 10px;
+}
+
+tr[class="read"] span[class="status"] {
+  border: 1.5px solid var(--sage);
+  background-image: linear-gradient(135deg, rgba(74,103,65,.25) 0%, rgba(74,103,65,.08) 100%);
+  color: var(--sage);
+  border-radius: 4px;
+  font-size: .68rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  line-height: 26px;
+}
+
+tr[class="to-read"] span[class="status"] {
+  border: 1.5px solid var(--navy);
+  background-image: linear-gradient(135deg, rgba(30,45,74,.20) 0%, rgba(30,45,74,.06) 100%);
+  color: var(--navy);
+  border-radius: 4px;
+  font-size: .68rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  line-height: 26px;
+}
+
+tr[class="in-progress"] span[class="status"] {
+  border: 1.5px solid var(--gold);
+  background-image: linear-gradient(135deg, rgba(200,151,42,.28) 0%, rgba(200,151,42,.08) 100%);
+  color: #7a5a10;
+  border-radius: 4px;
+  font-size: .68rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  line-height: 26px;
+}
+
+span[class^="rate"] > span {
+  border: 1.5px solid var(--muted);
+  border-radius: 50%;
+  margin: 0 2px;
+  height: 10px;
+  width: 10px;
+  background-color: var(--cream);
+  vertical-align: middle;
+}
+
+span[class~="one"] > span:first-child {
+  background-image: linear-gradient(135deg, var(--gold), var(--rust));
+  border-color: var(--gold);
+}
+
+span[class~="two"] > span:nth-child(1),
+span[class~="two"] > span:nth-child(2) {
+  background-image: linear-gradient(135deg, var(--gold), var(--rust));
+  border-color: var(--gold);
+}
+
+span[class~="three"] > span {
+  background-image: linear-gradient(135deg, var(--gold), var(--rust));
+  border-color: var(--gold);
+}
+
+tbody tr { 
+  transition: filter .15s; 
+}
+
+tbody tr:hover { 
+  filter: brightness(.95); 
+}
+
+.legend {
+  max-width: 1000px;
+  margin: 1.8rem auto 0;
+  display: flex;
+  gap: 1.4rem;
+  font-size: .72rem;
+  color: var(--muted);
+  letter-spacing: .06em;
+}
+
+.legend-dot {
+  width: 8px; 
+  height: 8px; 
+  border-radius: 50%;
+  display: inline-block; 
+  margin-right: 5px; 
+  vertical-align: middle;
+}
