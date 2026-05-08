@@ -1,0 +1,81 @@
+:root {
+  /* Required Color Variables */
+  --color0: #2c3e50;
+  --color1: #34495e;
+  --color2: #16a085;
+  --color3: #27ae60;
+  --color4: #2ecc71;
+  --color5: #1abc9c;
+
+  /* Required Border Variables */
+  --solid-border: 2px solid #ffffff;
+  --dashed-border: 2px dashed #aaaaaa;
+}
+
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 500px;
+}
+
+th, td {
+  padding: 15px;
+  height: 40px;
+}
+
+/* Class-based variable assignments */
+.available-0 { background-color: var(--color0); }
+.available-1 { background-color: var(--color1); }
+.available-2 { background-color: var(--color2); }
+.available-3 { background-color: var(--color3); }
+.available-4 { background-color: var(--color4); }
+.available-5 { background-color: var(--color5); }
+
+/* Border styling requirements */
+.sharp td {
+  border-bottom: var(--solid-border);
+}
+
+.half td {
+  border-bottom: var(--dashed-border);
+}
+
+/* Legend Requirements */
+#legend {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#legend-gradient {
+  width: 100%;
+  max-width: 300px;
+  height: 25px;
+  border: 1px solid white;
+  /* Hard-line linear gradient with whole number percentages */
+  background-image: linear-gradient(
+    90deg,
+    var(--color0) 0%,
+    var(--color0) 17%,
+    var(--color1) 17%,
+    var(--color1) 34%,
+    var(--color2) 34%,
+    var(--color2) 50%,
+    var(--color3) 50%,
+    var(--color3) 67%,
+    var(--color4) 67%,
+    var(--color4) 84%,
+    var(--color5) 84%,
+    var(--color5) 100%
+  );
+}
