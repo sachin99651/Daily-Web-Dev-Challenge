@@ -25,7 +25,7 @@ To maintain high-quality code and a consistent contribution streak, I follow a s
 | `04Arrays` | Data Collections, Methods & Iteration | ✅ Completed |
 | `05Objects` | Key-Value Pairs, Methods & `this` Keyword | ✅ Completed |
 | `06Loops` | For, While & Do-While Iteration** |✅ Completed |
-| `07JavaScriptFundamental` | **Current: "string, prototype etc" In Progress |
+| `07JavaScriptFundamental` | **Current: "string, prototype etc" | ⏳ In Progress |
 
 ## 🛠️ Technical Toolkit
 * **Language:** JavaScript (ES6+)
