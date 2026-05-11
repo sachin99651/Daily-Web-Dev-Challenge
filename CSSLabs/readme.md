@@ -17,6 +17,7 @@ This folder contains practical implementations of CSS concepts learned during th
 - **Box Model:** Mastering the spatial relationship between elements (content, padding, border, and margin).
 - **Flexbox:** Aligning items, managing space distribution, and controlling layout direction (row vs. column).
 - **Visual Design:** Implementing custom color palettes, typography, and responsive positioning.
+- **Grid Layout:** Implimenting grid rule to contain desired UI.
 
 ---
 *Status: Active Learning 🚀*
