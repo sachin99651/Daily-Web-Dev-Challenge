@@ -1,22 +1,31 @@
 # 🎨 CSS Practice Labs
 
 ## 📌 Overview
-This folder contains practical implementations of CSS concepts learned during the Responsive Web Design certification. Each subfolder represents a specific UI component or layout challenge.
+This folder contains practical implementations of CSS concepts learned during the **freeCodeCamp Responsive Web Design** certification. Each subfolder represents a specific UI component, artistic project, or layout challenge.
 
 ## 📂 Lab Breakdown
-* **`boxmodel`**: A foundational exploration of the CSS Box Model, focusing on how browsers calculate element dimensions.
-* **`colorBox`**: Practical application of margins, padding, and border properties to manipulate layout spacing.
-* **`colors`**: Exploring color theory, hex codes, RGB, and HSL values to create visually appealing designs.
-* **`flexbox`**: Comprehensive practice with flexible layouts, alignment, and distribution of space.
-* **`form`**: Styling interactive HTML elements and implementing user-friendly input validation UI.
-* **`gameSetting`**: Building a UI settings panel to master layout positioning and CSS Flexbox techniques.
-* **`selectionPage`**: Creating a selection interface to practice interactive states like hover, focus, and transitions.
+* **`AvailabilityTable`**: Practicing HTML table structures and responsive data presentation.
+* **`Cat Painting`**: An exploration of intermediate CSS positioning and border-radius to create complex shapes.
+* **`HousePainting`**: Using CSS shapes and layering to build illustrative web art.
+* **`News Article`**: Mastering typography, multi-column layouts, and magazine-style formatting.
+* **`Nutritional Label`**: Deep dive into typography, borders, and the box model to replicate real-world print designs.
+* **`PlayersCard` / `Pricing Plan`**: UI component design focusing on shadows, hover effects, and card layouts.
+* **`Tribute Page`**: A classic project focusing on semantic HTML and responsive images.
+* **`balanceSheet`**: Advanced use of pseudo-selectors and flexbox to align financial data.
+* **`citySkyline`**: Using CSS variables and gradients to create a responsive, decorative background.
+* **`piano`**: Utilizing media queries and specific positioning to create an interactive instrument UI.
+* **`boxmodel` / `boxModel2`**: Foundational exploration of margins, padding, and borders.
+* **`flexbox` (Lab1 & Lab2)**: Comprehensive practice with flexible alignment and space distribution.
+* **`form`**: Styling interactive elements and implementing user-friendly input validation.
+* **`gameSetting`**: Building a settings panel to master layout positioning.
+* **`selectionPage`**: Creating interactive interfaces with hover and focus states.
 
 ## 🛠️ Concepts Applied
-- **Selectors:** Using classes, IDs, and element selectors to target specific HTML parts.
-- **Box Model:** Mastering the spatial relationship between elements (content, padding, border, and margin).
-- **Flexbox:** Aligning items, managing space distribution, and controlling layout direction (row vs. column).
-- **Visual Design:** Implementing custom color palettes, typography, and responsive positioning.
+- **Selectors:** Using classes, IDs, and pseudo-elements (`:hover`, `:nth-child`) to target HTML.
+- **Box Model:** Mastering the spatial relationship between content, padding, border, and margin.
+- **Flexbox & Grid:** Aligning items and managing complex space distribution across different screen sizes.
+- **Visual Design:** Implementing custom color palettes (Hex, RGB, HSL), typography, and CSS variables.
+- **Responsive Design:** Using Media Queries to ensure layouts work on mobile and desktop.
 
 ---
 *Status: Active Learning 🚀*
