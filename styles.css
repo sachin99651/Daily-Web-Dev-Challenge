@@ -1,0 +1,127 @@
+/* freeCodeCamp Familiar Palette */
+:root {
+    --bg-main: #0a0a23;       /* Official freeCodeCamp deep navy/charcoal */
+    --bg-surface: #1b1b32;    /* Slightly lighter container background */
+    --border-color: #2a2a40;  /* Subtle divider color */
+    --text-primary: #ffffff;  /* Pure white for crisp readability */
+    --text-secondary: #d0d0d5;/* Muted silver-gray for descriptions */
+    --accent: #002fad;        /* Classic menu contrast blue */
+    --fcc-green: #0a5a3a;     /* Signature freeCodeCamp dark green */
+    --fcc-green-light: #198754;/* Brighter green for interactive outlines */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header Section */
+.header {
+    border-bottom: 2px solid var(--bg-surface);
+    background-color: var(--bg-main);
+    padding: 3rem 1.5rem;
+}
+
+.header-container {
+    max-width: 1012px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 0.75rem;
+    letter-spacing: -0.5px;
+}
+
+/* Accent highlight bar mimicking the fcc forum style */
+.title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: var(--fcc-green-light);
+    margin-top: 8px;
+}
+
+.description {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    max-width: 750px;
+    margin-top: 1rem;
+}
+
+/* Main Content Grid */
+.main-content {
+    flex: 1;
+    max-width: 1012px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.25rem;
+}
+
+/* Static, Familiar Container Blocks */
+.card {
+    background-color: var(--bg-surface);
+    border: 1px solid var(--border-color);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 1.25rem;
+}
+
+/* The signature square button style used in fcc apps */
+.card-link {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    background-color: var(--fcc-green);
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 0.4rem 1rem;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card-link:hover {
+    background-color: transparent;
+    border-color: var(--fcc-green-light);
+    color: var(--text-primary);
+}
+
+/* Footer Section */
+.footer {
+    border-top: 2px solid var(--bg-surface);
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    background-color: var(--bg-main);
+}
