@@ -1,0 +1,22 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+textarea {
+    width: 100%;
+    max-width: 500px;
+    height: 100px;
+    background-color: #1e1e1e;
+    color: #fff;
+    border: 1px solid #333;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.limit-reached {
+    color: red;
+    font-weight: bold;
+}
