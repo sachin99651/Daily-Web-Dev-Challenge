@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  cursor: pointer;
+  padding: 8px 16px;
+  background-color: #e0e0e0;
+  border-bottom: 1px solid #ccc;
+  width: max-content;
+}
+
+li:hover {
+  background-color: #d0d0d0;
+}
+
+#status {
+  text-align: center;
+  min-height: 20px;
+  margin-top: 20px;
+}
+
+.theme-dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.theme-light {
+  background-color: #ffffff;
+  color: #000000;
+}
