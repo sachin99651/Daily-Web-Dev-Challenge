@@ -24,11 +24,13 @@ To maintain high-quality code and a consistent contribution streak, I follow a s
 | `03Functions` | Reusable Logic, Parameters & Scope | ✅ Completed |
 | `04Arrays` | Data Collections, Methods & Iteration | ✅ Completed |
 | `05Objects` | Key-Value Pairs, Methods & `this` Keyword | ✅ Completed |
-| `06Loops` | For, While & Do-While **Iteration** |✅ Completed |
-| `07JavaScriptFundamental` | String and Prototype etc| ✅ Completed |
+| `06Loops` | For, While & Do-While **Iteration** | ✅ Completed |
+| `07JavaScriptFundamental` | String and Prototype etc | ✅ Completed |
 | `08HighOrderFunctions&Callbacks` | Functions and Callbacks | ✅ Completed |
 | `09DOMmanipulationAndEventHandling` | DOM manipulation and Event Handling | ✅ Completed |
-| `10JavascriptAndAccessibility` | **Current:** "Accessibility" | ⌛In progress |
+| `10JavascriptAndAccessibility` | Web Accessibility standards & Semantic HTML | ✅ Completed |
+| `11Debugging` | Troubleshooting, Chrome DevTools & Error Handling | ✅ Completed |
+| `12BasicRagex` | **Current:** Regular Expressions & Pattern Matching | ⌛ In progress |
 
 ## 🛠️ Technical Toolkit
 * **Language:** JavaScript (ES6+)
