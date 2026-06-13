@@ -30,7 +30,8 @@ To maintain high-quality code and a consistent contribution streak, I follow a s
 | `09DOMmanipulationAndEventHandling` | DOM manipulation and Event Handling | ✅ Completed |
 | `10JavascriptAndAccessibility` | Web Accessibility standards & Semantic HTML | ✅ Completed |
 | `11Debugging` | Troubleshooting, Chrome DevTools & Error Handling | ✅ Completed |
-| `12BasicRagex` | **Current:** Regular Expressions & Pattern Matching | ⌛ In progress |
+| `12BasicRagex` | Regular Expressions & Pattern Matching | ✅ Completed |
+| `13FormValiDation` | **Current:** Form Validation | ⌛ In progress |
 
 ## 🛠️ Technical Toolkit
 * **Language:** JavaScript (ES6+)
