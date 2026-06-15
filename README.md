@@ -31,7 +31,7 @@ To maintain high-quality code and a consistent contribution streak, I follow a s
 | `10JavascriptAndAccessibility` | Web Accessibility standards & Semantic HTML | ✅ Completed |
 | `11Debugging` | Troubleshooting, Chrome DevTools & Error Handling | ✅ Completed |
 | `12BasicRagex` | Regular Expressions & Pattern Matching | ✅ Completed |
-| `13FormValiDation` | **Current:** Form Validation | ⌛ In progress |
+| `13FormValiDation` | **Current:** Form Validation | ✅ Completed |
 
 ## 🛠️ Technical Toolkit
 * **Language:** JavaScript (ES6+)
