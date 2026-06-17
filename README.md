@@ -32,7 +32,8 @@ To maintain high-quality code and a consistent contribution streak, I follow a s
 | `11Debugging` | Troubleshooting, Chrome DevTools & Error Handling | ✅ Completed |
 | `12BasicRagex` | Regular Expressions & Pattern Matching | ✅ Completed |
 | `13FormValiDation` |  Form Validation | ✅ Completed |
-| `14Dates` | **Current:** Date And time handling | ✅ Completed |
+| `14Dates` |  Date And time handling | ✅ Completed |
+| `15AudioAndVideo` | **Current:** Audio and Video events handling | ⏳️ In Progress |
 
 ## 🛠️ Technical Toolkit
 * **Language:** JavaScript (ES6+)
