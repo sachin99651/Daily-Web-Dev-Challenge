@@ -1,4 +1,4 @@
-2# 🚀 Daily Web Development Challenges (2026)
+# 🚀 Daily Web Development Challenges (2026)
 
 ## 📌 Overview
 This repository serves as a professional log of my daily technical growth. Having completed my BCA in 2025, I am currently dedicated to an **8-hour daily study routine** to master the **MERN Stack** and **Data Structures** before beginning my MCA in September 2026.
