@@ -37,33 +37,4 @@ To maintain high-quality code and a consistent contribution streak, I strictly a
 * **MERN Stack:** Node.js, Express.js, React.js, MongoDB
 * **DevOps & Tools:** Git, GitHub, VS Code, Windows Terminal
 ---
-> *"Code every day to build a career, not just a project."*- [x] **Phase 2:** Advanced Logic (Functions, Arrays, Objects, Loops)
-- [ ] **Phase 3:** Backend Architecture (Node.js, Express, MongoDB)
-- [ ] **Phase 4:** Frontend Engineering (React.js & State Management)
-
-## 📂 Daily Log
-| Folder | Focus Area | Status |
-| :--- | :--- | :--- |
-| `01VariablesAndStrings` | JS Fundamentals: Variables & String Prototypes | ✅ Completed |
-| `02BooleanAndNumbers` | Arithmetic, Comparisons & Boolean Logic | ✅ Completed |
-| `03Functions` | Reusable Logic, Parameters & Scope | ✅ Completed |
-| `04Arrays` | Data Collections, Methods & Iteration | ✅ Completed |
-| `05Objects` | Key-Value Pairs, Methods & `this` Keyword | ✅ Completed |
-| `06Loops` | For, While & Do-While **Iteration** | ✅ Completed |
-| `07JavaScriptFundamental` | String and Prototype etc | ✅ Completed |
-| `08HighOrderFunctions&Callbacks` | Functions and Callbacks | ✅ Completed |
-| `09DOMmanipulationAndEventHandling` | DOM manipulation and Event Handling | ✅ Completed |
-| `10JavascriptAndAccessibility` | Web Accessibility standards & Semantic HTML | ✅ Completed |
-| `11Debugging` | Troubleshooting, Chrome DevTools & Error Handling | ✅ Completed |
-| `12BasicRagex` | Regular Expressions & Pattern Matching | ✅ Completed |
-| `13FormValiDation` |  Form Validation | ✅ Completed |
-| `14Dates` |  Date And time handling | ✅ Completed |
-| `15AudioAndVideo` | **Current:** Audio and Video events handling | ⏳️ In Progress |
-
-## 🛠️ Technical Toolkit
-* **Language:** JavaScript (ES6+)
-* **MERN Stack:** Node.js, Express, React.js, MongoDB
-* **DevOps:** Git, GitHub, VS Code, Windows Terminal
-
----
-*"Code every day to build a career, not just a project."*
+> *"Code every day to build a career, not just a project."*
