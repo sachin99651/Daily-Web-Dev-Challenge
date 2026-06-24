@@ -1,39 +1,27 @@
 # freeCodeCamp: Responsive Web Design - Piano Lab
-
-This repository contains my solution to the **Piano project** from the freeCodeCamp Responsive Web Design certification. The project focuses on utilizing CSS positioning, pseudo-elements, and media queries to create a responsive, visually accurate musical keyboard layout.
-
+This repository contains my solution to the **Piano Project** from the freeCodeCamp Responsive Web Design certification modules. The project focuses on utilizing CSS absolute and relative positioning, pseudo-elements, and responsive media queries to create a beautifully centered, visually accurate musical keyboard layout.
 ---
-
 ## 🚀 Features
-
-* **Semantic HTML5:** Built using standard structured layout practices.
-* **CSS Pseudo-elements:** Utilizes `::after` on specific classes to render the black keys efficiently without altering the HTML hierarchy.
-* **Fluid & Responsive Layout:** Uses CSS Media Queries to seamlessly adapt the piano instrument across mobile, tablet, and desktop viewports.
-* **Box-Sizing Reset:** Implements `border-box` sizing across all elements for easier, predictable spacing and layout calculations.
-
+* **Semantic HTML5 Construction**: Structures the keyboard layout using standard element divisions (`<div>` tags) to handle keys and organizational sub-groups cleanly.
+* **CSS Pseudo-Elements Layering**: Utilizes `::after` selectors on specific key tokens to render the overlaying black keys efficiently without altering the underlying HTML DOM structure.
+* **Fluid & Responsive Layout**: Employs CSS media queries to seamlessly scale the musical keyboard chassis down across mobile, tablet, and desktop viewports.
+* **Predictable Box-Sizing Reset**: Implements global `box-sizing: border-box;` parameters to simplify dimensional calculations, preventing key padding or borders from expanding the elements out of alignment.
 ---
-
 ## 🛠️ Technologies Used
-
-* **HTML5:** Structure of the piano keys and container.
-* **CSS3:** Styling, positioning (`absolute`/`relative`), floating elements, and responsive breakpoints.
-
+* **HTML5**: Structuring the interactive keys framework, grouping wrappers, and header logos.
+* **CSS3**: Layout design rules utilizing relative/absolute tracking systems, float alignment clears, hover pseudo-classes, and responsive media breakpoints.
 ---
-
 ## 📱 Responsive Breakpoints
+The design scales smoothly across three main device categories using targeted media query breakpoints:
 
-The design scales smoothly across three main device categories using media queries:
-
-| Device Type | Viewport Range | Key Adjustments |
+| Device Type | Viewport Range | Key Structural Adjustments |
 | :--- | :--- | :--- |
-| **Desktop** | $1200\text{px}$ and above | Full size ($992\text{px}$ piano container width) |
-| **Tablet** | $769\text{px}$ to $1199\text{px}$ | Scaled intermediate size ($675\text{px}$ container width) |
-| **Mobile** | Up to $768\text{px}$ | Compact layout ($358\text{px}$ container width) and reduced logo size |
+| **Desktop** | `1200px` and above | Full size profile (`992px` piano container chassis width) |
+| **Tablet** | `769px` to `1199px` | Scaled intermediate size (`675px` piano container chassis width) |
+| **Mobile** | Up to `768px` | Compact layout (`358px` container width) and reduced logo dimensions |
 
 ---
-
 ## 📂 File Structure
-
 ```text
-├── index.html   # Main HTML markup for the piano and keys
-└── styles.css   # Layout styling, positioning, and media queries
+├── index.html   # Main HTML markup representing the piano chassis, black keys, and white keys
+└── styles.css   # Main design sheet defining relative/absolute layouts, positions, and query blocks
